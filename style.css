@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav{
+  position: absolute;
+  display: flex;
+  padding: auto;
+  width: 100%;
+  height: 111px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+@media(max-width: 667px){
+  .home{
+    flex-direction: column;
+      width: 500px;
+  }
+  .nav{
+    width: 100%; 
+    
+  }
+  .body-img img{
+    display:none;
+  }
+}
+@media(max-width: 667px){
+  .body2{
+    grid-template-columns: 1fr 1fr 1fr;
+     
+    margin: auto;
+  }
+}
+@media (max-width:667px) {
+  .main-channel{
+    flex-direction: column;
+
+    margin: 12px;
+  }
+  
+  .about-aman {
+    margin-left: 150%;
+  
+  }
+  .image-aman{
+    
+    width: 10%;
+  }
+  .body4{
+    background-color:none;
+    width: 350%;
+    flex-direction: column;
+
+  }
+  .body3{
+   flex-direction: column;
+  }
+  .box3{
+    width: 140%;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+     padding: 1rem;
+  }
+  .subscribers{
+    display: flex;
+     margin: 5rem;
+    
+  }
+  .total-views{
+    display: flex;
+    margin: 1rem;
+   
+  }
+  .promotion{
+    width: 360%;
+   
+  }
+  .our-channel{
+    display: flex;
+    margin-left: 170%;
+  }
+  
+   .footer{
+      background: #000;
+      grid-template-columns: none;
+      grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .footer2,.footer3,.footer4{
+    background: #000;
+    margin-left: 5rem;
+  }
+}
+.logo img{
+height: 109px;
+  width: 134px;
+  margin-left: 6rem;
+}
+.content{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.content ul{
+  display: flex;
+  justify-content:center;
+  text-decoration: none;
+  margin-left: 16rem;
+}
+.content ul li {
+  display: flex;
+  right: 0%;
+  margin: 12px;  
+  font-size: x-large;
+}
+.content ul li a{
+  font-size: larger;
+}
+.login-btn{
+  font-size: larger;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: solid blue;
+  background-color: blue;
+
+}
+.login input{
+color: aliceblue;
+}
+.login{
+  display:flex;
+  margin-left: 420px;
+  margin-top: 30px;
+}
+.body1{
+  display: flex;
+  position: absolute;
+  margin-top: 10rem;
+  width: 100%;
+}
+h2{
+  padding-top: 15rem;
+  padding-left: 145px;
+  font-size: 3.5rem;
+}
+.body-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 0%;
+}
+.body-img{
+  display: flex;
+  margin-left: rem;
+  float: right;
+}
+.body-img img{
+ height: 43rem;
+ width: auto;
+
+}
+.tour-btn{
+  height: 62px;
+  width: 152px;
+  margin-left: 145px;
+  border: solid blue;
+  border-radius: 12px;
+  padding-left: 3px;
+  font-size: larger;
+  margin-top: 22px;
+  cursor: pointer;
+  transition: .5s;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tour-btn:hover{
+  size:80px;
+  width: 270px;
+}
+.body2{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.box1{
+  display: flex;
+  align-items: center;
+  margin-top: 52rem;
+  justify-content: center;
+  margin-left: 7rem;
+  padding: 42px;
+  border-radius: 22px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box1 a{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height:50px;
+}
+
+.box1 ul li{
+  list-style: none;
+  
+}
+.box2 ul li{
+  list-style: none;
+  
+}
+.box2 a{
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size:large;
+  height: 45px;
+  color: black;
+}
+
+
+.box2{
+  border-radius: 22px;
+  margin-right: 4rem;
+  margin-left: 4rem;
+ margin-top: 3rem;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ display: flex;
+  align-items: center;
+  margin-top: 52rem;
+  justify-content: center;
+  padding:65px;
+  
+}
+.box3{
+  border-radius: 22px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding: 25px;
+}
+.box3 ul li {
+  list-style: none;
+}
+.box3 a {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-size: larger;
+  padding: 12px;
+  color: black;
+  
+}
+.learn-btn{
+  width: 470px;
+  height: 50px;
+ font-size: larger;
+ font: 1em sans-serif;
+  margin-top: 20px;
+  border: solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+.learn-btn:hover{
+  background-color: blue;
+  
+}
+
+.body4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightsteelblue;
+  margin-top: 5rem;
+  width: 100%;
+  margin-right: 62px;
+  height: 772px;
+}
+.image-aman img{
+  width: 50rem;
+  margin-left: 42px;
+  margin-right: 20px;
+  margin-top: -2rem;
+}
+.body4 a{
+ text-decoration: none;
+ font-size: 25px;
+ color: black;
+ 
+}
+.about-aman{
+  float: right;
+  margin-left: 22px;
+  margin-right: 12px;
+}
+.h1{
+  font-size:35px ;
+  
+  padding-bottom:20px ;
+}
+.body5{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 222px;
+  border: solid;
+  width: 633px;
+  margin-left: 28rem;
+  margin-top: -110px;
+  background-color:whitesmoke;
+}
+.ellipse{
+  display: flex;
+  font-size:1.1rem;
+  
+}
+.footer img{
+  margin: 45px;
+  height: auto;
+  width: 12rem;
+  margin-right: 22rem;
+}
+.footer{
+  width: 100%;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  column-gap: 12px; 
+  background-color:black;
+}
+.footer2 ,.footer3,.footer4{
+  margin-top: 45px;
+  display: flex;  
+}
+.footer2 li, .footer3 li, .footer4 li {
+  list-style: none;
+}
+
+.footer2 a,.footer3 a,.footer4 a{
+  display: flex;
+  align-items: center;
+  padding:12px ;
+  color:aliceblue;
+  text-decoration: none;
+
+
+
+}
+.white{
+  color: aliceblue;
+  font-size: larger;
+  margin-left: 12px;
+  margin-bottom: 28px;
+}
+.promotion{
+  display:flex;
+  background-color: rgb(242, 205, 211);
+  padding:22px;
+  margin-left:8%;
+  margin-right: 8%;
+}
+.promotion img{
+  height: 40rem;
+  margin-bottom: 0%;
+}
+.image1{
+ margin-right: 10%
+}
+.blog{
+  margin-top:90px ;
+ font-size: larger;
+ margin-left: 110px;
+ margin-right: 110px;
+}
+.heading{
+  margin-bottom: 30px;
+  font-family:sans-serif;
+  font-size: xx-large;
+}
+
+p{
+ font-size: larger;
+}
+.flex{
+  display:flex;
+  margin-top: 11rem;
+  margin-bottom: 13rem;
+  justify-content: center;
+  font-size: xx-large;
+}
+.subscribers{
+  margin-right: 10%;
+}
+.flex a{
+  text-decoration: none;
+  color: black
+
+}
+.total-sub,.views{
+  font-size: larger;
+  padding-right: 20px;
+  padding-left: 12px;
+  box-sizing:border-box;
+  border-radius: 12px;
+  background-color: rgb(231, 226, 226);
+}
+.xyz1{
+  margin-left: 62px;
+  font-weight:lighter;
+  margin-bottom: 12px;
+  
+}
+.xyz2{
+  font-weight:lighter;
+  margin-bottom: 12px;
+  margin-left: 162px;
+}
+.channel{
+display:grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr;
+row-gap: 40px;
+column-gap: 50px;
+background-color: aqu;
+width: 100%;
+
+}
+.channel img{
+  width: 35rem ;
+  border-radius: 22px;
+}
+.box{
+  margin: 70px;
+  border: solid white;
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 32px;
+}
+.box-heading{
+ font-size: xx-large;
+ margin: 10px;
+}
+.box-para{
+  margin-left: 10px;
+}
+.box-btn{
+  float: right;
+  margin-top: -52px;
+  height: 40px;
+  width: 100px;
+  font-size:x-large;
+  border: solid blue;
+  border-radius: 11px;
+  transition: .5s;
+}
+.box-btn:hover{
+  text-decoration: underline;
+  height: 45px;
+  width: 110px;
+}
+.our-channel{
+   background-color:aqu;
+   height:10rem;
+   font-size: 30px;
+   margin-top: -118px;
+   
+  }
+  .abc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+  }
+  .abc a{
+    font-size:1.3rem;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  .our-channel {
+    height: 282px;
+  }
+
+  .our-channel h1{
+    padding-top: 8.5rem;
+    margin-left: 40%;
+    font-size:3.5rem; 
+  }   
+    .social-icons{
+       display: flex;
+      justify-content:center;
+      align-items: center; 
+     
+      display: flex;
+      
+    
+      
+    }
+  
+  .social-icons a{
+ padding-left: 1.5rem;
+  font-size: xx-large;
+  display:flex;
+  text-decoration: none;
+  border-radius: 100%;
+  background-color: aliceblue;
+  }
+  .sss{
+    display:flex;
+    margin-left: 111px;
+  }
